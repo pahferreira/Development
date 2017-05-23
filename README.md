@@ -1,3 +1,3 @@
 # Development
 
-Esse repositório possui código diversos praticados durante o curso.
+Repositório para códigos diversos praticados durante o curso. P1.

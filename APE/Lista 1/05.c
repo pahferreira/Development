@@ -10,9 +10,9 @@ int main () {
     scanf("%d", &m);
     printf("Digite o ano: \n");
     scanf("%d", &a);
-    meses = (a * 12) + m;
-    d = d + (meses * 30);
-    resultado = (d * 24) * 3600;
+    meses = (a*12)+m;
+    d = d+(meses*30);
+    resultado = (d*24)*3600;
     printf("O Resultado em segundos e: %d", resultado);
 
     return 0;

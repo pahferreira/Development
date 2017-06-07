@@ -11,35 +11,40 @@
       font-size: 20px;
     }
     body {
-      background-color: #503333;
-      color: #ffffff;
-      text-align: center;
-      height: 650px;
+      margin: 0;
+    }
+    html, body{
+      height: 100%;
     }
     .fa {
       font-size: 5rem;
     }
     .inicio {
-      vertical-align: middle;
+      width: 100%; height: auto; min-height: 100%; /* a propriedade height:auto e min-height: 100% fará com que esta div ocupe sempre a altura total do navegador, mesmo quando redimensionado */
+      background-color: #503333;
+      text-align: center;
     }
-    .blank {
-      height: 275px;
+    .inicio-content{
+      position: absolute; /*Definindo a posição da div com os links para centralizar verticalmente*/
+      top: 43%; /* Vai para 43% do top, independente da resolução*/
+      left: 50%; /* Vai para o meio, independente da resolução*/
+      margin-left: -165px;
     }
-    a:visited {
-      color: #ffffff;
+    a, a:visited {
+      color: #fff;
+      text-decoration: none;
     }
+
   </style>
 </head>
 <body>
-  <div class="blank">
-  </div>
   <div class="inicio">
-    <a href="https://www.facebook.com/ministerioatuemos/" target="blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-    <a href="https://www.instagram.com/ministerioatuemos" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    <i class="fa fa-home" aria-hidden="true"></i>
-    <a href="https://www.youtube.com/channel/UC0mKslI331ut1MLaM57_cVg" target="blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
-  </div class="blank">
-  <div>
+    <div class="inicio-content">
+      <a href="https://www.facebook.com/ministerioatuemos/" target="blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/ministerioatuemos" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/channel/UC0mKslI331ut1MLaM57_cVg" target="blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+    </div>
   </div>
 </body>
 </html>

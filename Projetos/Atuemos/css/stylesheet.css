@@ -1,0 +1,52 @@
+html{
+  font-size: 20px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.Top{
+  background-color: #202022;
+  height: 25px;
+}
+.Top-links{
+  background-color: #1A1A1A;
+  position: relative;
+  top: 1px;
+  float: right;
+}
+.Top a, .Top a:visited{
+  color: #fff;
+}
+.menu *{
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  background-color: #503333;
+  height: 45px;
+  position: sticky;
+  top: 0px;
+}
+.menu ul{
+  height: 45px;
+}
+.menu li{
+  list-style: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 5px 50px 10px 50px;
+
+}
+.menu li:hover{
+  background: #36aebe;
+}
+.menu a, .menu a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+#active{
+  text-shadow: #febc4d 0px 0px 15px;
+}

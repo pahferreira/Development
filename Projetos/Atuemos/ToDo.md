@@ -6,5 +6,4 @@
 2. Organizar *Menu Principal*
   *Se colocassemos o Menu centralizado? Mesmo sem preencher todo o espaço*
 3. Estilizá-los
-4. **Colorir Depois!**
-5. Apresentar estrutura a Abílio e conversar sobre **conteúdo**.
+4. Apresentar estrutura a Abílio e conversar sobre **conteúdo**.

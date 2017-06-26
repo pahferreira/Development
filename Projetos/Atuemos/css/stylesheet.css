@@ -11,12 +11,7 @@ body{
   background-color: #202022;
   height: 35px;
 }
-.Top-links{
-  float: right;
-  text-align: left;
-  font-size: 1.2em;
-  height: 100%;
-}
+
 .Top-content{
   float: left;
   font-size: 1em;
@@ -28,10 +23,16 @@ body{
   margin: 5px 0px;
   line-height: 100%;
 }
-.Top-content, .Top-links {
-  position: relative;
-  top: 1px;
+.Top-content {
 
+}
+
+.Top-links {
+  position: relative;
+  top: 4px;
+  float: right;
+  left: -10px;
+  font-size: 1.2em;
 }
 .Top a, .Top a:visited{
   color: #fff;

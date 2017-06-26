@@ -9,13 +9,29 @@ body{
 
 .Top{
   background-color: #202022;
-  height: 25px;
+  height: 35px;
 }
 .Top-links{
-  background-color: #1A1A1A;
+  float: right;
+  text-align: left;
+  font-size: 1.2em;
+  height: 100%;
+}
+.Top-content{
+  float: left;
+  font-size: 1em;
+  vertical-align: center;
+  color: white;
+  height: 100%;
+}
+.Top-content p {
+  margin: 5px 0px;
+  line-height: 100%;
+}
+.Top-content, .Top-links {
   position: relative;
   top: 1px;
-  float: right;
+
 }
 .Top a, .Top a:visited{
   color: #fff;
@@ -35,7 +51,7 @@ body{
 }
 .menu li{
   list-style: none;
-  display: inline-block;
+  display: inline;
   font-size: 1.25rem;
   padding: 5px 50px 10px 50px;
 

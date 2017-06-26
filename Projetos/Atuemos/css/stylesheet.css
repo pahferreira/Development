@@ -12,7 +12,7 @@ body{
   height: 35px;
 }
 
-.Top-content{
+/*.Top-content{
   float: left;
   font-size: 1em;
   vertical-align: center;
@@ -25,13 +25,14 @@ body{
 }
 .Top-content {
 
-}
+}*/
 
-.Top-links {
+.Top-links{
+  background-color: #1A1A1A;
   position: relative;
   top: 4px;
-  float: right;
   left: -10px;
+  float: right;
   font-size: 1.2em;
 }
 .Top a, .Top a:visited{
@@ -49,12 +50,14 @@ body{
 }
 .menu ul{
   height: 45px;
+  display: inline-block;
+  margin-left: 15%;
 }
 .menu li{
   list-style: none;
-  display: inline;
+  display: inline-block;
   font-size: 1.25rem;
-  padding: 5px 50px 10px 50px;
+  padding: 5px 70px 10px 70px;
 
 }
 .menu li:hover{
@@ -64,6 +67,7 @@ body{
   color: #fff;
   text-decoration: none;
 }
+
 #active{
   text-shadow: #febc4d 0px 0px 15px;
 }

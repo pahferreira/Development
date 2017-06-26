@@ -52,3 +52,19 @@ body{
 #active{
   text-shadow: #febc4d 0px 0px 15px;
 }
+
+.content{
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 65%;
+  background: #7481de;
+}
+
+.notice{
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 33%;
+  background: #7fa4ec;
+}

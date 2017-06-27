@@ -9,31 +9,13 @@ body{
 
 .Top{
   background-color: #202022;
-  height: 35px;
+  height: 25px;
 }
-
-/*.Top-content{
-  float: left;
-  font-size: 1em;
-  vertical-align: center;
-  color: white;
-  height: 100%;
-}
-.Top-content p {
-  margin: 5px 0px;
-  line-height: 100%;
-}
-.Top-content {
-
-}*/
-
 .Top-links{
   background-color: #1A1A1A;
   position: relative;
-  top: 4px;
-  left: -10px;
+  top: 1px;
   float: right;
-  font-size: 1.2em;
 }
 .Top a, .Top a:visited{
   color: #fff;
@@ -67,7 +49,22 @@ body{
   color: #fff;
   text-decoration: none;
 }
-
 #active{
   text-shadow: #febc4d 0px 0px 15px;
+}
+
+.content{
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 65%;
+  background: #7481de;
+}
+
+.notice{
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 33%;
+  background: #7fa4ec;
 }

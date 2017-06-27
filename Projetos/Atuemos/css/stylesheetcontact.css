@@ -1,0 +1,24 @@
+div.Form p {
+  font-family: Calibri, sans-serif;
+  font-size: 0.9em;
+}
+
+.message-box {
+  height: 150px;
+  width: 350px;
+}
+
+.user-contact {
+  width: 350px;
+}
+
+.content-box {
+  top: 80px;
+  border: 5px solid;
+}
+
+.Form {
+  margin: 70px auto;
+  width: 500px;
+  height: auto;
+}

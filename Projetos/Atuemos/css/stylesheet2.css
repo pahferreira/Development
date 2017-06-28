@@ -37,6 +37,8 @@ body{
   height: 45px;
   align-items: stretch;
   justify-content: space-around;
+  position: sticky;
+  top: 0px;
 }
 .menu .item{
   display: flex;

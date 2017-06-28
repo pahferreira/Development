@@ -7,64 +7,57 @@ body{
   padding: 0;
 }
 
+/*topo*/
 .Top{
+  display: flex;
   background-color: #202022;
-  height: 25px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
 }
-.Top-links{
-  background-color: #1A1A1A;
-  position: relative;
-  top: 1px;
-  float: right;
+
+.Top-content, .Top-links{
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0 10px;;
 }
-.Top a, .Top a:visited{
-  color: #fff;
+
+.Top-links a{
+  font-size: 23px;
+  color: #ffffff;
 }
-.menu *{
-  margin: 0;
-  padding: 0;
-}
+/*Fim topo*/
+
+/*Menu*/
 .menu{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
   background-color: #503333;
   height: 45px;
-  position: sticky;
-  top: 0px;
+  align-items: stretch;
+  justify-content: space-around;
 }
-.menu ul{
-  height: 45px;
-  display: inline-block;
-  margin-left: 15%;
+.menu .item{
+  display: flex;
+  width: 25%;
+  align-items: center;
 }
-.menu li{
-  list-style: none;
-  display: inline-block;
-  font-size: 1.25rem;
-  padding: 5px 70px 10px 70px;
 
-}
-.menu li:hover{
-  background: #36aebe;
-}
-.menu a, .menu a:visited{
+.menu .item a, .menu .item  a:visited{
+  text-decoration: none;
+  font-size: 1.25rem;
   color: #fff;
   text-decoration: none;
+  width: 100%;
+  text-align: center;
 }
+
+.menu .item:hover{
+  background: #36aebe;
+}
+
 #active{
   text-shadow: #febc4d 0px 0px 15px;
 }
-
-.content{
-  display: inline-block;
-  position: relative;
-  float: left;
-  width: 65%;
-  background: #7481de;
-}
-
-.notice{
-  display: inline-block;
-  position: relative;
-  float: right;
-  width: 33%;
-  background: #7fa4ec;
-}
+/*Fim menu*/

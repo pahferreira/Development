@@ -10,10 +10,9 @@ body{
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-image: url("back.PNG");
+  background-image: url("../img/back2.PNG");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: transparent;
+  background-size: 100% 100%;
 }
 .content-display{
   display: flex;

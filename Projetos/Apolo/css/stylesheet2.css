@@ -12,8 +12,9 @@ body, html{
     height: 100vh;
     background-image: url("../img/algodao.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /*background-color: black;*/
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .menu{
     height: 4vh;
@@ -61,4 +62,8 @@ body, html{
         align-items: center;
     }
 
+}
+
+.story{
+    height: 100vh;
 }

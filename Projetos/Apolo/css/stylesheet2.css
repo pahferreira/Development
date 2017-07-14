@@ -1,0 +1,64 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.home{
+    height: 100vh;
+    background-image: url("../img/algodao.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background-color: black;*/
+}
+.menu{
+    height: 4vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.submenu2 span{
+    font-size: 1.3em;
+    padding: 0 20px;
+}
+.submenu1{
+    font-size: 1.3em
+}
+.subicons{
+    /*display: none;*/
+    visibility: hidden;
+}
+.logo{
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.logo img{
+    width: auto;
+    height: 30vw;
+    min-height: 200px;
+}
+
+@media only screen and (max-width : 550px) {
+    .submenu2{
+        display: none;
+    }
+    .menu{
+        justify-content: space-between;
+    }
+    .submenu1{
+        padding-left: 2%;
+    }
+    .subicons{
+        display: flex;
+        visibility: visible;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+}

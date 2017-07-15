@@ -4,6 +4,14 @@ body, html{
     margin: 0;
     padding: 0;
 }
+
+p {
+  font-family: "Comfortaa";
+  text-align: center;
+}
+h2 {
+  font-family: "Open Sans Condensed";
+}
 .grid{
     display: grid;
 }
@@ -102,8 +110,6 @@ body, html{
 }
 .sub-social1 p{
     padding: 0 100px;
-    font-family: "Comfortaa";
-    text-align: center;
 }
 .sub-social2 a{
     display: flex;
@@ -115,6 +121,7 @@ body, html{
     margin-bottom: 30px;
     justify-content: center;
     font-family: "Comfortaa";
+    transition: all 0.6s;
 }
 .sub-social2 a:hover{
     color: white;
@@ -125,4 +132,62 @@ body, html{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+/*About Us*/
+.about_us {
+  height: 100vh;
+  width: 100%;
+  margin: 20px 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+      "header header header"
+      "main main main"
+      "main main main";
+}
+.about_us-header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_us h1{
+    width:100%;
+    display:inline-block;
+    font-size: 3em;
+    font-family: "Raleway";
+    color: #222;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.about_us .line{
+    border-bottom: 2px solid #4d4d4d;
+    width: 20vmax;
+    margin-bottom: 10px;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 25px 0;
+  }
+.person img {
+  width: 180px;
+  height: 180px;
+  border: 2px solid #333;
+  padding: 2px;
+  border-radius: 50%;
+  }
+
+.person h2, .person p {
+  text-align: center;
+}
+
+.person h2 {
+  margin: 5px 0 0;
+}
+.person p {
+  margin: 5px 0 0;
 }

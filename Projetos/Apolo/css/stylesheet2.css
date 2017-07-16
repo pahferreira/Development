@@ -134,11 +134,12 @@ h2 {
     justify-content: space-around;
 }
 
-/*About Us*/
-.about_us {
+/*Integrantes*/
+.integrantes {
   height: 100vh;
   width: 100%;
   margin: 20px 0;
+  background-color: #fff;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -147,13 +148,13 @@ h2 {
       "main main main"
       "main main main";
 }
-.about_us-header {
+.integrantes-header {
   grid-area: header;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.about_us h1{
+.integrantes h1{
     width:100%;
     display:inline-block;
     font-size: 3em;
@@ -162,9 +163,9 @@ h2 {
     text-align: center;
     margin-bottom: 5px;
 }
-.about_us .line{
+.integrantes .line{
     border-bottom: 2px solid #4d4d4d;
-    width: 20vmax;
+    width: 22vmax;
     margin-bottom: 10px;
 }
 .person {

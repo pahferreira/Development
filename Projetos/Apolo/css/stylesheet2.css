@@ -5,6 +5,7 @@ body, html{
     padding: 0;
 }
 
+
 p {
   font-family: "Comfortaa";
   text-align: center;
@@ -18,13 +19,15 @@ h2 {
 .flex{
     display: flex;
 }
+/*Home*/
 .home{
     height: 100vh;
-    background-image: url("../img/bgapolo.jpg");
+    /*background-image: url("../img/bgapolo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 100% 100vh;
+    background-size: 100% 100vh;*/
+    background-color: #d1d0ce;
 }
 .menu{
     height: 4vh;
@@ -55,50 +58,56 @@ h2 {
     min-height: 200px;
 }
 
-@media only screen and (max-width : 550px) {
-    .submenu2{
-        display: none;
-    }
-    .menu{
-        justify-content: space-between;
-    }
-    .submenu1{
-        padding-left: 2%;
-    }
-    .subicons{
-        display: flex;
-        visibility: visible;
-        padding: 0 20px;
-        align-items: center;
-    }
-
-}
-
+/*Social*/
 .social{
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-            "sec1 sec2"
-            "sec1 sec2";
-
+    background-color: #dacfb0;
 }
-.sub-social1 .line{
+@media only screen and (max-width : 1090px) {
+    .social{
+        grid-template-columns: 1fr;
+        /*background-color: #a85054;*/
+    }
+    .sub-social2 .links{
+        display: flex;
+    }
+    .sub-social2 .links a{
+        margin: 20px 20px;
+    }
+    .sub-social2 .none{
+        height: 10px;
+    }
+}
+
+.sub-social1 .line, .sub-social2 .line{
     border-bottom: 2px solid #4d4d4d;
-    width: 13vmax;
+    width: 300px;
 }
 .sub-social1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
+
 }
-.sub-social1 h1{
+.sub-social1 h1, .sub-social2 h1{
     margin-bottom: 10px;
     font-size: 3em;
     font-family: "Raleway";
     color: #222;
+    text-align: center;
+}
+.sub-social2 h1{
+    /*margin: 63px 0 0 0;*/
+}
+.sub-social2 h3{
+    font-family: "Raleway";
+    color: #222;
+    margin: 5px 0;
+    text-align: center;
 }
 .sub-social1 img{
     width: 300px;
@@ -110,7 +119,9 @@ h2 {
 }
 .sub-social1 p{
     padding: 0 100px;
+    min-width: 590px;
 }
+
 .sub-social2 a{
     display: flex;
     text-decoration: none;
@@ -118,7 +129,7 @@ h2 {
     width: 60px;
     border: 2px solid #333;
     padding: 20px 50px;
-    margin-bottom: 30px;
+    margin: 20px 0 20px 0;
     justify-content: center;
     font-family: "Comfortaa";
     transition: all 0.6s;
@@ -128,15 +139,17 @@ h2 {
     background-color: #333;
 }
 .sub-social2{
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
+
 
 /*Integrantes*/
 .integrantes {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   margin: 20px 0;
   background-color: #fff;

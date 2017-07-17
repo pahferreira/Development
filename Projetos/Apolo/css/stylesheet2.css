@@ -3,6 +3,8 @@
 body, html{
     margin: 0;
     padding: 0;
+    min-width: 790px;
+    height: 100vh;
 }
 
 
@@ -22,12 +24,13 @@ h2 {
 /*Home*/
 .home{
     height: 100vh;
+    min-width: 100%;
     /*background-image: url("../img/bgapolo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 100vh;*/
-    background-color: #d1d0ce;
+    background-color: #8d8d8d;
 }
 .menu{
     height: 4vh;
@@ -61,9 +64,10 @@ h2 {
 /*Social*/
 .social{
     min-height: 100vh;
+    min-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #dacfb0;
+
 }
 @media only screen and (max-width : 1090px) {
     .social{
@@ -91,6 +95,7 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 100%;
+    background-color: #e2e2e2;
 
 }
 .sub-social1 h1, .sub-social2 h1{
@@ -144,14 +149,14 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #e2e2e2;
 }
 
 
 /*Integrantes*/
 .integrantes {
   min-height: 100vh;
-  width: 100%;
-  margin: 20px 0;
+  min-width: 100%;
   background-color: #fff;
   display: grid;
   grid-gap: 20px;
@@ -160,6 +165,8 @@ h2 {
       "header header header"
       "main main main"
       "main main main";
+      background-color: #8d8d8d;
+
 }
 .integrantes-header {
   grid-area: header;
@@ -186,6 +193,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   margin: 0 25px 0;
+
   }
 .person img {
   width: 180px;
@@ -197,6 +205,7 @@ h2 {
 
 .person h2, .person p {
   text-align: center;
+
 }
 
 .person h2 {

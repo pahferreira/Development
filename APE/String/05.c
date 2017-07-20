@@ -1,33 +1,31 @@
-#include <stdio.h>
-#define TAM 200
-
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
 
 int main (){
-char frase[TAM];
-int i, j, cont, vogais=0, especiais=0, consoantes = 0;
+    char frase[101];
+    int i, vogal, cons, spec;
+    vogal = cons = spec = 0;
 
-    puts ("Digite uma frase:");
-    scanf("%[^\n]s", frase);
-    for (i=0; frase[i] !='\0'; i++);
-    for (cont = i-1; cont>=0; cont--){
-        for (j=0; j<65;j++){
-            if ((int)frase[cont] == j){
-                especiais++;
+    //Obtendo a frase.
+    printf("Digite a frase: ");
+    gets(frase);
+    for (i = 0; frase[i] != '\0'; i++){
+        //Verificando se na string, possui os caracteres equivalentes as vogais
+        if (strchr("aeiou", frase[i])){
+            vogal++;
+            }else
+            //Verificando se existe cosoantes
+            if (isalpha(frase[i])){
+                cons++;
+            //Se Não é vogal nem consoante, o que sobra é especial.
+            }else{
+                spec++;
             }
-        }
-        if (frase[cont] == 'a' || frase[cont] == 'e' || frase[cont] == 'i' || frase[cont] == 'o' || frase[cont] == 'u'){
-            vogais++;
-    }else {
-        if ((int)frase[cont] > 64){
-        consoantes++;
-        }
     }
-    }
-    printf("CARACTERES: %d \n", especiais);
-    printf("VOGAIS: %d \n", vogais);
-    printf("CONSOANTES: %d \n", consoantes);
-
-
+    //Imprimindo Resultados
+    printf("VOGAIS: %d\n", vogal);
+    printf("CONSOANTES: %d\n", cons);
+    printf("ESPECIAIS: %d\n", spec);
     return 0;
 }
-

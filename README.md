@@ -1,3 +1,3 @@
-# Development
+# Study
 
-Repositório para códigos diversos praticados durante o curso. P1.
+Repositório para códigos diversos praticados durante o curso.

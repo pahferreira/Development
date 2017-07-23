@@ -1,3 +1,13 @@
-# Projeto Linguagem de Marcação
+# PROJETO BANDA-APOLO
 
-Repositório para códigos diversos praticados durante o curso.
+## Descrição
+Site objetivo e informativo para a banda apolo, com espaço para contato.
+## Objetivo
+
+## Inspiração
+
+## Protótipo
+
+## Screenshots
+
+

@@ -27,6 +27,7 @@ h2 {
      bottom: auto !important;
      background: rgba(0, 0, 0, 0.57);
      transition: background-color 500ms;
+     display: flex;
  }
  .largura{
      width: 900px;
@@ -37,7 +38,8 @@ h2 {
  }
 
  .largura img{
-     height: 50px;
+   margin-top: 4px;
+     height: 42px;
      width: 264px;
  }
  .largura ul{

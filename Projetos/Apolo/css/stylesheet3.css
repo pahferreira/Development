@@ -1,0 +1,226 @@
+/*39a0ac = Color*/
+
+body, html{
+    margin: 0;
+    padding: 0;
+    /*overflow-x:  hidden;*/
+    /*height: 100%;*/
+
+}
+
+
+p {
+  font-family: "Comfortaa";
+  text-align: center;
+}
+h2 {
+  font-family: "Open Sans Condensed";
+}
+
+/*Header*/
+ .menu{
+     height: 7vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: auto !important;
+     background: rgba(0, 0, 0, 0.57);
+     transition: background-color 500ms;
+ }
+ .largura{
+     width: 900px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .largura img{
+     height: 50px;
+     width: 264px;
+ }
+ .largura ul{
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.3em;
+ }
+ .largura ul a{
+     margin: 0 20px;
+     text-decoration: none;
+     color: #eee;
+ }
+ .largura ul a:hover{
+     color: #aaa;
+ }
+
+
+/**/
+/*Intro*/
+.intro{
+    height: 100vh;
+    background: url("../img/guitar.jpg");
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+}
+
+.intro a{
+    align-self: end;
+    margin: 0;
+    height: 68px;
+    transition: all 0.5s;
+}
+
+/**/
+
+/*Social*/
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+                ". . "
+                "header1 header2"
+                "line1 line2"
+                ". subheader2"
+                "img links"
+                "paragraph .";
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+
+}
+.social h1{
+    margin: 5px 0;
+    font-family: "Raleway";
+    font-size: 3em;
+    color: #333;
+}
+.social h3{
+    color: #333;
+    font-family: "Raleway";
+}
+.social #hd1{
+    grid-area: header1;
+    text-align: center;
+}
+.social #hd2{
+    grid-area: header2;
+    text-align: center;
+}
+.social .line1{
+    grid-area: line1;
+    border-bottom: 2px solid #333;
+    width: 200px;
+}
+.social .line2{
+    grid-area: line2;
+    border-bottom: 2px solid #333;
+    width: 200px;
+}
+.social h3{
+    grid-area: subheader2;
+}
+.social img{
+    grid-area: img;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding: 2px;
+    border: 2px solid #333;
+}
+.social p{
+    grid-area: paragraph;
+    max-width: 600px;
+}
+.social .links{
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+}
+.social .links a{
+    border: 2px solid #333;
+    padding: 20px 40px;
+    width: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.6s;
+}
+.social .links a:hover{
+    background-color: #333;
+    color: white;
+}
+
+/*Gradient*/
+
+.gd{
+    height: 80px;
+    background: linear-gradient(1.3deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 53%, rgba(230,230,230,0) 54%);
+}
+
+/*Footer*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    background-color: #e6e6e6;
+    font-family: "Raleway";
+    color: #333;
+}
+.footer .contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+}
+.footer .contact h1{
+    text-align: center;
+}
+.footer img{
+    width: 15%;
+    justify-self: center;
+    align-self: center;
+    margin: 10px 0 0 0;
+    opacity: 0.5;
+}
+.footer .fc{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 100px;
+}
+.footer .fc h1{
+    text-align: center;
+    align-self: center;
+}
+.footer .fc span{
+    text-align: center;
+    align-self: center;
+    font-family: "Comfortaa";
+    color: #444;
+}
+.footer .fc span a{
+    color: inherit;
+    text-decoration: none;
+}
+.footer .fc span a:hover{
+    text-decoration: underline;
+}
+
+/*Copy*/
+.copyright{
+    background: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+}
+.copyright a, .copyright a:visited{
+    color: #444;
+    text-decoration: none;
+}
+/*Responsive design*/

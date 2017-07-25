@@ -16,32 +16,13 @@ p {
 h2 {
   font-family: "Open Sans Condensed";
 }
-.grid{
-    display: grid;
-}
-.flex{
-    display: flex;
-}
-/*Home*/
-.home{
-    display: none;
-    height: 100vh;
-    /*min-width: 100%;*/
-    /*background-image: url("../img/bgapolo.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100% 100vh;*/
-    background-color: #8d8d8d;
-}
-.menu{
-    height: 4vh;
-    background-color: white;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    overflow: hidden;
-}
+
+
+/*header*/
+
+/**/
+/*Intro*/
+
 .submenu2 span{
     font-size: 1.3em;
     padding: 0 20px;

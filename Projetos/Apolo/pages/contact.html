@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/stylesheet3.css">
+  <link rel="stylesheet" href="../css/contactstylesheet.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans+Condensed:700|Raleway" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -20,25 +21,30 @@
           <ul>
               <a href="#"><li>Home</li></a>
               <a href="#"><li>About US</li></a>
-              <a href="#"><li>Fale Conosco</li></a>
+              <a href="#"><li id="active">Fale Conosco</li></a>
           </ul>
       </div>
   </header>
   <main class="intro">
     <a href="#sc" class="scroll"><img src="https://s3.amazonaws.com/assets.sitezoogle.com/usersite/themes/163/a/scroll-to-content-tab.png" alt=""></a>
   </main>
-  <main class="social" id="sc">
-      <h1 id="hd1">Apolo</h1>
-      <div class="line1"></div>
-      <img src="../img/logoapolo.jpg" alt="logo">
-      <p>Um grupo de amigos que curtem um bom rock and roll. Nascida em 8 de julho de 2016, a Banda Apolo vem fazendo um som com letras que contam os bons e maus momentos que já passaram durante a vida. A maior parte dos integrantes se conheceram no Ministério de Teatro Atuemos e descobriram que cada um sabia tocar um instrumento e decidiram juntar-se para ver no que ia dá. Atualmente, a banda possui 6 membros que buscam passar a mensagem para todas as gerações.</p>
-      <h1 id="hd2">Social</h1>
-      <h3>Siga-nos nas redes sociais!</h3>
-      <div class="line2"></div>
-      <div class="links">
-          <a href="https://www.instagram.com/bandaapolo/?hl=pt-br" target="_blank">Instagram</a>
-          <a href="https://www.youtube.com/channel/UCOjS00-IqfZBfJY3UvKMQKg" target="_blank">Youtube</a>
-      </div>
+  <main class="form">
+    <h1>Mande sua mensagem \o/</h1>
+    <div class="form-div">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Mensagem</legend>
+          <p>Seu nome:</p>
+          <input type="text" name="user-name" placeholder="Ex: Axel Rose">
+          <p>E-mail:</p>
+          <input type="text" class="user-contact" name="contatousuario" placeholder="Ex: axel_rose@wannarock.com" size="45"><br>
+          <p>Mensagem:</p>
+          <textarea name="mensagem" class="message-box" placeholder="Digite sua mensagem." cols="50" rows="10"></textarea><br>
+          <input type="submit" name="enviar" value="Enviar">
+          <input type="reset" name="reset" value="Limpar Formulário"></p>
+        </fieldset>
+      </form>
+    </div>
   </main>
   <div class="gd"></div>
   <footer class="footer">

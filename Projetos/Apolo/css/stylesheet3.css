@@ -18,6 +18,9 @@ h2 {
 }
 
 /*Header*/
+  #active{
+    text-decoration: underline;
+}
  .menu{
      height: 7vh;
      position: fixed;
@@ -164,6 +167,32 @@ h2 {
 .gd{
     height: 80px;
     background: linear-gradient(1.3deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 53%, rgba(230,230,230,0) 54%);
+}
+
+/*Form*/
+div.form p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+}
+
+.message-box {
+  height: 150px;
+  width: 350px;
+}
+
+.user-contact {
+  width: 350px;
+}
+
+.content-box {
+  top: 80px;
+  border: 5px solid;
+}
+
+.Form {
+  margin: 70px auto;
+  width: 500px;
+  height: auto;
 }
 
 /*Footer*/

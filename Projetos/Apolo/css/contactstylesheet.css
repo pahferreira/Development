@@ -1,0 +1,39 @@
+/*Form*/
+form p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+form legend {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.form h1 {
+  font-family: 'Comfortaa';
+  text-align: center;
+  font-size: 3em;
+}
+
+.message-box {
+  height: 200px;
+  width: 450px;
+}
+.user-name {
+  width: 250px;
+}
+.user-contact {
+  width: 350px;
+}
+
+.content-box {
+  border: 5px solid;
+}
+
+.form-div {
+  margin: auto;
+  width: 500px;
+  height: auto;
+}

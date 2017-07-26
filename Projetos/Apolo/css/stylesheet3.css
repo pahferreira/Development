@@ -212,6 +212,26 @@ div.form p {
 .footer .contact h1{
     text-align: center;
 }
+.footer .contact .icons li{
+  list-style: none;
+}
+.footer .contact .fa{
+  font-size: 2.2em;
+  color: #333;
+  margin: 0 10px;
+  background-color: #e6e6e6;
+  padding: 6px 8px;
+  border-radius: 50px;
+}
+.footer .contact .fa:hover{
+  color: #e6e6e6;
+  background-color: #333;
+}
+.footer .contact .icons{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
 .footer img{
     width: 15%;
     justify-self: center;

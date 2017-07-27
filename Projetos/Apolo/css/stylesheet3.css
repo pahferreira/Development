@@ -227,32 +227,6 @@ h2 {
     background: linear-gradient(1.3deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 53%, #000 54%, #000 100%);
 }
 
-/*Form*/
-div.form p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.9em;
-}
-
-.message-box {
-  height: 150px;
-  width: 350px;
-}
-
-.user-contact {
-  width: 350px;
-}
-
-.content-box {
-  top: 80px;
-  border: 5px solid;
-}
-
-.Form {
-  margin: 70px auto;
-  width: 500px;
-  height: auto;
-}
-
 /*Footer*/
 .footer{
     display: grid;
@@ -270,25 +244,32 @@ div.form p {
 .footer .contact h1{
     text-align: center;
 }
-.footer .contact .icons li{
-  list-style: none;
-}
-.footer .contact .fa{
-  font-size: 2.2em;
+.footer .contact a{
+  font-size: 34px;
+  text-align: center;
   color: #333;
   margin: 0 10px;
   background-color: #e6e6e6;
-  padding: 6px 8px;
+  padding: 4px 8px;
+  border: 2px solid #333;
   border-radius: 50px;
 }
-.footer .contact .fa:hover{
+.footer .contact a:hover{
   color: #e6e6e6;
   background-color: #333;
 }
-.footer .contact .icons{
-  display: flex;
-  justify-content: center;
-  padding: 0;
+.footer .contact .fa {
+  width: 30px;
+  height: 30px;
+}
+.footer .contact ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px 100px;
+  text-align: center;
+  padding: 0 100px;
+  margin: 0;
+  list-style: none;
 }
 .footer img{
     width: 15%;

@@ -165,8 +165,8 @@ h2 {
 }
 /*Integrantes*/
 .integrantes{
-    height: 100vh;
-    display: none;
+    height: 90vh;
+    display: grid;
     grid-template-columns: repeat(6, 1fr);
     align-content: stretch;
     background: #000;
@@ -179,42 +179,44 @@ h2 {
 }
 .integrantes .person:hover{
     filter: unset;
+    cursor: pointer;
 }
 .integrantes .p1{
-    background-image: url("../img/arilson.jpg");
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: 70% center;
+    background-image: url("../img/manoelhome.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
 }
 .integrantes .p2{
-    background-image: url("../img/danilo.jpg");
-    background-size: contain;
-    background-attachment: fixed;
+    background-image: url("../img/arilsonhome.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
 }
 .integrantes .p3{
-    background-image: url("../img/diogo.jpg");
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: 30% center;
+    background-image: url("../img/pahhome.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
 
 }
 .integrantes .p4{
-    background-image: url("../img/luiz.jpg");
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: 65% center;
+    background-image: url("../img/danilohome.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
 }
 .integrantes .p5{
-    background-image: url("../img/manoel.jpg");
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: 85% center;
+    background-image: url("../img/diogohome.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
 }
 .integrantes .p6{
-    background-image: url("../img/pah.jpg");
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: 48% center;
+    background-image: url("../img/luizhome.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
 }
 /*Gradient*/
 

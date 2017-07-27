@@ -31,6 +31,7 @@ h2 {
      background: rgba(0, 0, 0, 0.57);
      transition: background-color 500ms;
      display: flex;
+     z-index: 511;
  }
  .largura{
      width: 900px;
@@ -95,7 +96,8 @@ h2 {
     align-items: center;
     justify-items: center;
     align-content: center;
-    height: 100vh;
+    height: 93vh;
+    margin-top: 7vh;
 
 }
 .social h1{
@@ -161,12 +163,68 @@ h2 {
     background-color: #333;
     color: white;
 }
+/*Integrantes*/
+.integrantes{
+    height: 100vh;
+    display: none;
+    grid-template-columns: repeat(6, 1fr);
+    align-content: stretch;
+    background: #000;
 
+}
+.integrantes .person{
+    background: #000;
+    filter: grayscale(100%);
+    box-shadow:  inset -1px -18px 111px 22px;
+}
+.integrantes .person:hover{
+    filter: unset;
+}
+.integrantes .p1{
+    background-image: url("../img/arilson.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 70% center;
+}
+.integrantes .p2{
+    background-image: url("../img/danilo.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+.integrantes .p3{
+    background-image: url("../img/diogo.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 30% center;
+
+}
+.integrantes .p4{
+    background-image: url("../img/luiz.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 65% center;
+}
+.integrantes .p5{
+    background-image: url("../img/manoel.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 85% center;
+}
+.integrantes .p6{
+    background-image: url("../img/pah.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 48% center;
+}
 /*Gradient*/
 
+.gd:first-of-type{
+    height: 80px;
+    background: linear-gradient(-1.3deg, #000 0%, #000 53%, rgba(230,230,230,0) 54%);
+}
 .gd{
     height: 80px;
-    background: linear-gradient(1.3deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 53%, rgba(230,230,230,0) 54%);
+    background: linear-gradient(1.3deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 53%, #000 54%, #000 100%);
 }
 
 /*Form*/

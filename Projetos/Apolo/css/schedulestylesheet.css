@@ -1,0 +1,40 @@
+.schedule h1 {
+  font-family: 'Raleway';
+  text-align: center;
+  font-size: 3em;
+  color: #333;
+}
+
+.schedule-imgs {
+  display: flex;
+  justify-content: center;
+}
+.schedule-imgs img {
+  width: 200px;
+  height: 300px;
+  margin: 0 10px;
+}
+
+.schedule-content {
+  text-align: center;
+}
+
+.schedule-content ul {
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Comfortaa';
+}
+
+.schedule-content a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.schedule-content a:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.schedule-content a:hover {
+  text-decoration: underline;
+}

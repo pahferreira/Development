@@ -1,19 +1,20 @@
 form p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 1.2em;
   text-align: left;
   margin-top: 5px;
   margin-bottom: 2px;
 }
 form legend {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: bold;
 }
 
 .form h1 {
-  font-family: 'Comfortaa';
+  font-family: 'Raleway';
   text-align: center;
   font-size: 3em;
+  color: #333;
 }
 
 .message-box {

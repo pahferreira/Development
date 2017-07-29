@@ -13,6 +13,13 @@
   width: 200px;
   height: 300px;
   margin: 0 10px;
+  border-radius: 15px;
+}
+.schedule-imgs img:first-child{
+  border-radius: 50px 15px 15px 50px;
+}
+.schedule-imgs img:last-child{
+  border-radius: 15px 50px 50px 15px;
 }
 
 .schedule-content {

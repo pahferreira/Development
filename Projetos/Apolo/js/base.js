@@ -5,6 +5,11 @@ $(function() {
           } else {
             $(".menu").css("background", "rgba(0, 0, 0, 0.57)");
           }
+          if($(window).scrollTop() > 1900) {
+            $(".menu").css("border-bottom", "2px solid white");
+          } else {
+            $(".menu").css("border-bottom", "0");
+          }
     });
 });
 jQuery(document).ready(function($) {

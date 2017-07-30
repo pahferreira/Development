@@ -168,55 +168,19 @@ h2 {
     height: 90vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    align-content: stretch;
+    align-items: center;
     background: #000;
 
 }
-.integrantes .person{
-    background: #000;
+
+
+.integrantes img{
+    width: 100%;
+    height: 80vh;
     filter: grayscale(100%);
-    box-shadow:  inset -1px -18px 111px 22px;
 }
-.integrantes .person:hover{
+.integrantes img:hover{
     filter: unset;
-    cursor: pointer;
-}
-.integrantes .p1{
-    background-image: url("../img/manoelhome.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-}
-.integrantes .p2{
-    background-image: url("../img/arilsonhome.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-}
-.integrantes .p3{
-    background-image: url("../img/pahhome.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-
-}
-.integrantes .p4{
-    background-image: url("../img/danilohome.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-}
-.integrantes .p5{
-    background-image: url("../img/diogohome.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-}
-.integrantes .p6{
-    background-image: url("../img/luizhome.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
 }
 /*Gradient*/
 
@@ -233,7 +197,7 @@ h2 {
 .footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 200px;
+    height: 220px;
     background-color: #e6e6e6;
     font-family: "Raleway";
     color: #333;
@@ -260,18 +224,15 @@ h2 {
   color: #e6e6e6;
   background-color: #333;
 }
-.footer .contact .fa {
-  width: 30px;
-  height: 30px;
-}
+
 .footer .contact ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 70px 100px;
   text-align: center;
   padding: 0 100px;
   margin: 0;
   list-style: none;
+  align-self: center;
 }
 .footer img{
     width: 15%;
@@ -283,7 +244,7 @@ h2 {
 .footer .fc{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70px 100px;
+    grid-template-rows: 70px;
 }
 .footer .fc h1{
     text-align: center;

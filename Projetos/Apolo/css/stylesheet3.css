@@ -185,6 +185,7 @@ h2 {
 }
 .integrantes img:hover{
     filter: unset;
+    cursor: pointer;
 }
 /*Gradient*/
 

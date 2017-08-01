@@ -1,0 +1,21 @@
+.history {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+
+}
+.history div{
+  width: 50%;
+}
+.history div:first-child {
+  box-sizing: border-box;
+  padding: 0 5%;
+}
+.history .history-content {
+  text-align: center;
+}
+
+.history .history-img img {
+  height: 100%;
+  width: 100%;
+}

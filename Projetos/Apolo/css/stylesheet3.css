@@ -7,8 +7,11 @@ body, html{
     /*height: 100%;*/
 
 }
-
-
+h1 {
+  font-family: "Raleway";
+  font-size: 3em;
+  color: #333;
+}
 p {
   font-family: "Comfortaa";
   text-align: center;
@@ -106,9 +109,6 @@ h2 {
 }
 .social h1{
     margin: 12px 0 5px;
-    font-family: "Raleway";
-    font-size: 3em;
-    color: #333;
 }
 .social h3{
     color: #333;

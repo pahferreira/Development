@@ -1,28 +1,28 @@
-.history {
+.history, .member {
   height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-
 }
-.history div{
+#sc .size{
   width: 50%;
+  height: 100%;
 }
-.history .history-content{
+.history .history-content, .member .member-content{
   box-sizing: border-box;
   padding: 0 5%;
   display: flex;
   flex-direction: column;
 }
-.history .history-content div {
+.history .history-content div, .member .member-content div {
   width: 100%;
   margin-top: 100px;
 }
-.history .history-content {
+.history .history-content, .member .member-content {
   text-align: center;
 }
 
-.history .history-img img {
+.history .history-img img, .member .member-img img {
   height: 100%;
   width: 100%;
 }

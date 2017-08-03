@@ -70,8 +70,6 @@ h2 {
 /*Intro*/
 .intro{
     height: 100vh;
-    background: url("../img/guitar.jpg");
-    background-size: cover;
     display: grid;
     justify-content: center;
 }
@@ -81,6 +79,25 @@ h2 {
     margin: 0;
     height: 68px;
     transition: all 0.5s;
+}
+#home{
+    background: url("../img/guitar.jpg");
+    background-size: cover;
+}
+#contact{
+    background: url("../img/bass.jpg");
+    background-size: cover;
+    filter: grayscale(50);
+}
+#agenda{
+    background: url("../img/drums.jpg");
+    background-size: cover;
+    filter: grayscale(50);
+}
+#about{
+    background: url("../img/keyboard.jpg");
+    background-size: cover;
+    filter: grayscale(50);
 }
 
 #sc {
@@ -179,17 +196,48 @@ h2 {
 
 }
 
-
-.integrantes img{
-    width: 100%;
+.integrante{
     height: 70vh;
-    filter: grayscale(100%);
-    /*margin: 50px 0;*/
+    background-size: 100% 70vh;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.integrantes img:hover{
+.integrante:hover{
     filter: unset;
-    cursor: pointer;
 }
+.integrante:hover .int_hide{
+    opacity: 1;
+}
+.int_hide{
+    opacity: 0;
+    transition: all 0.6s;
+}
+.integrantes a{
+    text-decoration: none;
+}
+.integrante h2{
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    text-align: center;
+    color: gainsboro;
+}
+.integrante i{
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.integrante i img{
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    filter: grayscale(1);
+}
+
 /*Gradient*/
 
 .gd:first-of-type{

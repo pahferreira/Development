@@ -8,6 +8,21 @@
   width: 50%;
   /*height: 100%;*/
 }
+.member-content i{
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.member-content i img{
+    width: 30px;
+    height: 30px;
+    padding: 25px;
+    border-radius: 50%;
+    border-bottom:  2px solid #B2B2B2;
+    filter: grayscale(1);
+}
 .history .history-content, .member .member-content{
   box-sizing: border-box;
   padding: 10px 5%;

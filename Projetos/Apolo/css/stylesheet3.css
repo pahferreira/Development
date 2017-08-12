@@ -324,7 +324,12 @@ h2 {
 .footer .fc span a:hover{
     text-decoration: underline;
 }
-
+.translate {
+  transition: 0.5s;
+}
+.translate:hover {
+  transform: translateY(-5px);
+}
 /*Copy*/
 .copyright{
     background: gainsboro;

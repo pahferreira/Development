@@ -7,7 +7,7 @@
 * Alinhar títulos: Redes Sociais e Fale Conosco
 
 ## About Us
-* Adicionar Web Source, provavelmente instagram
+* **Adicionar Web Source (localização)** - OK
 * Cortar um pouco as laterais da logo da Banda
 
 ## Agenda

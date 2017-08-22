@@ -14,6 +14,8 @@
 * **Organizar imagem para substituição** - OK
 
 ## Responsividade
-* Tablet
-* Mobile
-* Mobile Maiorzinho
+* Max: 480px
+* Max: 768px
+* Max: 1024px
+* Max: 1600px
+* Above 1600px

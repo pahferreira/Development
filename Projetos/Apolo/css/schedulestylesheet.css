@@ -9,17 +9,31 @@
   display: flex;
   justify-content: center;
 }
-.schedule-imgs img {
+.schedule-imgs div {
   width: 200px;
   height: 300px;
   margin: 0 10px;
   border-radius: 15px;
+  background: no-repeat center url("../img/agenda_center.png");
+  background-size: cover;
 }
-.schedule-imgs img:first-child{
+.schedule-imgs div img {
+  width: 100px;
+  height: 200px;
+  filter: opacity(0.8) brightness(1);
+}
+.schedule-imgs .center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.schedule-imgs div:first-child{
   border-radius: 50px 15px 15px 50px;
+  background-image: url("../img/agenda_left.png");
 }
-.schedule-imgs img:last-child{
+.schedule-imgs div:last-child{
   border-radius: 15px 50px 50px 15px;
+  background-image: url("../img/agenda_right.png");
 }
 
 .schedule-content {

@@ -77,3 +77,21 @@
     align-self: center;
     color: #fff;
 }
+.sede {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #000;
+  padding: 10px 0;
+  height: 100vh;
+}
+.map iframe{
+  border-radius: 30px;
+}
+.sede h1 {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}

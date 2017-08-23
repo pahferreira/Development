@@ -15,7 +15,7 @@
 
 ## Responsividade
 * Max: 480px
-* Max: 768px
-* Max: 1024px - OK about, fale Conosco, agenda
+* Max: 768px - OK agenda, fale conosco
+* Max: 1024px - OK all
 * Max: 1600px - OK all
 * Above 1600px - OK all

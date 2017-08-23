@@ -1,6 +1,6 @@
 $(function() {
     $(window).on("scroll", function() {
-          if($(window).scrollTop() > 600) {
+          if($(window).scrollTop() > 450) {
             $(".menu").css("background", "#000");
           } else {
             $(".menu").css("background", "rgba(0, 0, 0, 0.57)");

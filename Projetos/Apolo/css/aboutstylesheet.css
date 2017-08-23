@@ -46,6 +46,7 @@
 .history .history-img img, .member .member-img img {
   height: 600px;
   width: 60%;
+  border-radius: 5px;
   filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
 }
 .history .history-img, .member .member-img{
@@ -122,5 +123,28 @@
   .map iframe{
     width: 400px;
     height: 350px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .history .history-img {
+    display: none;
+  }
+  .history .history-content {
+    width: 100%;
+  }
+  .history .history-content h1, .history .history-content p {
+    margin: 40px 0px;
+  }
+  .video .yt iframe {
+    width: 500px;
+    height: 300px;
+  }
+  .video h1 {
+    font-size: 2em;
+  }
+  .member .member-img img {
+    height: 425px;
+    width: 75%;
   }
 }

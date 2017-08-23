@@ -271,7 +271,10 @@ h2 {
     height: 80px;
     background: linear-gradient(-1.3deg, #E6E6E6 0%, #E6E6E6 53%, rgba(230,230,230,0) 54%);
 }
-
+#gd_cinza_black{
+    height: 80px;
+    background: linear-gradient(-1.3deg, #E6E6E6 0%, #E6E6E6 53%, rgb(0,0,0) 54%);
+}
 /*Footer*/
 .footer{
     display: grid;

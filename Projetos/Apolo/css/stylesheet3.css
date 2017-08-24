@@ -279,7 +279,7 @@ h2 {
 .footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 220px;
+    /*height: 220px;*/
     background-color: #e6e6e6;
     font-family: "Raleway";
     color: #333;
@@ -370,86 +370,7 @@ h2 {
 
 /*Responsive design*/
 
-/*@media all and (max-width: 320px){
-  body, html {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-                  "header"
-                  "main"
-                  "footer"
-                  "div";
-  }
-  #home {
-    display: none;
-  }
-  .menu {
-    background: #000;
-    grid-area: header;
-    z-index: none;
-  }
-  main {
-    grid-area: main;
-  }
-  footer {
-    grid-area: footer;
-  }
-  .copyright {
-    grid-area: div;
-  }
-  .menu .largura:first-child{
-    display: none;
-  }
-  .social{
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-areas:
-                  "header1"
-                  "line1"
-                  "img"
-                  "paragraph"
-                  "header2"
-                  "line2"
-                  "subheader2"
-                  "links";
-      padding: 0px 10px;
 
-  }
-  .social #hd1{
-      grid-area: header1;
-      text-align: center;
-  }
-  .social #hd2{
-      grid-area: header2;
-      text-align: center;
-  }
-  .social .line1{
-      grid-area: line1;
-      border-bottom: 2px solid #333;
-      width: 200px;
-  }
-  .social .line2{
-      grid-area: line2;
-      border-bottom: 2px solid #333;
-      width: 200px;
-  }
-  .social h3{
-      grid-area: subheader2;
-  }
-  .social img{
-      grid-area: img;
-      width: 200px;
-      height: 200px;
-  }
-  .social p{
-      grid-area: paragraph;
-      max-width: 200px;
-  }
-  .social .links{
-      grid-area: links;
-      display: flex;
-  }
-}*/
 
 @media all and (max-width: 1024px){
   .largura {
@@ -480,4 +401,72 @@ h2 {
   .largura:first-child {
     display: none;
   }
+  .footer{
+      padding: 0 20px;
+  }
+  .footer h1{
+      font-size: 1.8em;
+  }
+  .footer img{
+      margin: 0px -25px 0 0;
+  }
+  .integrante{
+      height: 45vh;
+      background-size: 100% 45vh;
+  }
+  .integrante h2{
+      font-size: 1em;
+  }
+  .social{
+      grid-template-columns: 1fr;
+      margin-top: 0;
+  }
+  .social .links, .social h3, .social #hd2, .social .line2{
+      display: none;
+  }
+  .social p{
+      max-width: 600px;
+  }
+  .social img{
+      margin-top: 20px;
+  }
+  .hide{
+      height: 30px;
+  }
+  .integrante:hover .int_hide{
+      transform: translateY(4px);
+  }
+}
+
+@media all and (max-width: 480px){
+    .largura ul{
+        font-size: 1.1em;
+        padding: 0;
+    }
+    #home{
+        background-size: 100% 100%;
+    }
+    .social p{
+        max-width: 400px;
+    }
+    .social img{
+        width: 210px;
+        height: 210px;
+    }
+    .integrantes{
+        display: none;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+
+    }
+    .footer h1{
+        font-size: 1.5em;
+    }
+    .footer img{
+        display: none;
+    }
+    .footer .fc span{
+        margin-bottom: 20px;
+    }
 }

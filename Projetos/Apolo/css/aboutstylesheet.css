@@ -1,8 +1,9 @@
 .history, .member {
-  height: 100vh;
+  /*height: 100vh;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 110px 0;
 }
 .size{
   width: 50%;
@@ -124,6 +125,7 @@
     width: 400px;
     height: 350px;
   }
+
 }
 
 @media all and (max-width: 768px) {
@@ -143,8 +145,32 @@
   .video h1 {
     font-size: 2em;
   }
+  .member{
+      margin: 0;
+  }
   .member .member-img img {
     height: 425px;
     width: 75%;
   }
+}
+@media all and (max-width: 480px){
+    .video .yt iframe{
+        width: 425px;
+    }
+    .video h1{
+        font-size: 1.5em;
+    }
+    .member-content div p{
+        font-size: 0.9em;
+    }
+    .member .member-img img{
+        height: 377px;
+    }
+    .member .member-content h1{
+        font-size: 2.5em;
+    }
+    .member-content i img{
+        width: 20px;
+        height: 20px;
+    }
 }

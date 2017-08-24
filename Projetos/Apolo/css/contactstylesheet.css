@@ -37,3 +37,11 @@ form legend {
   width: 500px;
   height: auto;
 }
+@media all and (max-width: 480px){
+    .message-box{
+        width: 380px;
+    }
+    .form-div{
+        width: 440px;
+    }
+}

@@ -59,3 +59,17 @@
 .schedule-content a:hover {
   text-decoration: underline;
 }
+
+@media all and (max-width: 480px){
+    .schedule h1{
+        font-size: 2em;
+    }
+    .schedule-imgs div{
+        width: 125px;
+        height: 250px;
+        margin: 0px 6px;
+    }
+    .schedule{
+        padding-top: 40px;
+    }
+}

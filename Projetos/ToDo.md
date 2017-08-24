@@ -14,8 +14,8 @@
 * **Organizar imagem para substituição** - OK
 
 ## Responsividade
-* Max: 480px
-* Max: 768px - OK agenda, fale conosco
+* Max: 480px - OK all
+* Max: 768px - OK all
 * Max: 1024px - OK all
 * Max: 1600px - OK all
 * Above 1600px - OK all

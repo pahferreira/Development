@@ -6,9 +6,6 @@
   font-family: 'Raleway';
   src: url("../fonts/Raleway-Regular.ttf");
 }
-
-
-
 body{
   padding: 0;
   margin: 0;
@@ -34,7 +31,6 @@ body{
   border-radius: 50%;
   box-shadow: 0 0 60px 20px rgba(0, 0, 0, 0.2);
 }
-
 .content .content-display .upline{
   border-bottom: 3px solid #fff;
   width: 13vmax;
@@ -56,7 +52,6 @@ body{
 .content img{
   width: 300px;
 }
-
 .content a{
   text-decoration: none;
   color: #fff;
@@ -64,8 +59,22 @@ body{
   padding: 15px 40px;
   transition: all 0.6s;
 }
-
 .content a:hover{
   background-color: white;
   color: black;
+}
+
+@media all and (max-width: 480px){
+  .content .content-display p {
+    width: 400px;
+  }
+  .content .content-display h1 {
+    font-size: 3em;
+  }
+  .content img {
+    width: 230px;
+  }
+  .content .content-display .downline, .content .content-display .upline {
+    display: none;
+  }
 }

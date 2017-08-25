@@ -170,3 +170,32 @@
     height: auto;
   }
 }
+@media all and (max-width: 425px){
+    .video h1{
+        font-size: 1.5em;
+    }
+    .video .yt iframe{
+        width: 370px;
+        height: 240px;
+    }
+    .size{
+        height: 80%;
+    }
+}
+@media all and (max-width: 375px){
+    .member-content i img{
+        width: 20px;
+        height: 20px;
+    }
+    .video h1{
+        font-size: 1.3em;
+    }
+    .video .yt iframe{
+        width: 350px;
+        height: 215px;
+    }
+    .map iframe{
+        width: 355px;
+        height: 320px;
+    }
+}

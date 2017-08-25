@@ -46,3 +46,16 @@ form legend {
         margin: 4px;
     }
 }
+@media all and (max-width: 425px){
+    .message-box{
+        width: 372px;
+    }
+}
+@media all and (max-width: 425px){
+    .message-box{
+        width: 328px;
+    }
+    .user-contact{
+        width: 320px;
+    }
+}

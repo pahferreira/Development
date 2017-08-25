@@ -160,6 +160,10 @@
   .history .history-content p {
     margin: 0px;
   }
+  .history {
+    padding: 10px;
+    height: auto;
+  }
   .member .member-img {
     display: none;
   }

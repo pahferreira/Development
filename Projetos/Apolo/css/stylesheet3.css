@@ -460,6 +460,13 @@ h2 {
         grid-template-columns: 1fr;
 
     }
+    .social {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .social p {
+      max-width: 90%;
+    }
     .footer h1{
         font-size: 1.5em;
     }
@@ -475,9 +482,6 @@ h2 {
     #active{
         display: none;
     }
-    .social p{
-        max-width: 285px;
-    }
 }
 @media all and (max-width: 375px){
     .social img{
@@ -487,5 +491,10 @@ h2 {
     h1{
         font-size: 2.6em;
     }
+}
 
+@media all and (max-width: 320px){
+  .largura ul {
+    font-size: 0.9em;
+  }
 }
